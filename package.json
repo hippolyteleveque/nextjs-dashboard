@@ -3,10 +3,10 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "precommit": "lint-staged",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start"
+    "start": "next start",
+    "precommit": "lint-staged",
   },
   "husky": {
     "hooks": {
